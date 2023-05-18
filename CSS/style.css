@@ -23,7 +23,7 @@ ul {
 }
 .content {
     width:500px;
-    margin:0 auto;
+    margin:50px auto;
 }
 footer {
     background-color:#373738;
@@ -34,4 +34,19 @@ footer ul {
     padding: center;
     display: inline-block;
     vertical-align: top;
+}
+.flexContainer {
+    display:flex;
+    margin:0 auto;
+    padding:25px;
+    width:33%;
+
+}
+.workGrid {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+
+}
+@media only screen and (max-width:600){
+
 }
